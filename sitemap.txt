@@ -4,8 +4,8 @@ http://starrim.cn/posts/3147/
 http://starrim.cn/posts/452/
 http://starrim.cn/posts/3000/
 http://starrim.cn/posts/8847/
-http://starrim.cn/categories/index.html
 http://starrim.cn/about/index.html
+http://starrim.cn/categories/index.html
 http://starrim.cn/link/index.html
 http://starrim.cn/music/index.html
 http://starrim.cn/tags/index.html
