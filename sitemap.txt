@@ -1,3 +1,5 @@
+http://starrim.cn/charts/index.html
+http://starrim.cn/license/index.html
 http://starrim.cn/fonts/demo_index.html
 http://starrim.cn/fonts/iconfont.json
 http://starrim.cn/posts/3147/

@@ -2,9 +2,9 @@
   font-family: "iconfont"; /* Project id 3967528 */
   /* Color fonts */
   src: 
-       url('iconfont.woff2?t=1702745428081') format('woff2'),
-       url('iconfont.woff?t=1702745428081') format('woff'),
-       url('iconfont.ttf?t=1702745428081') format('truetype');
+       url('iconfont.woff2?t=1702797120066') format('woff2'),
+       url('iconfont.woff?t=1702797120066') format('woff'),
+       url('iconfont.ttf?t=1702797120066') format('truetype');
 }
 
 .iconfont {
@@ -13,6 +13,54 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chenggong:before {
+  content: "\e601";
+}
+
+.icon-SEARCH:before {
+  content: "\e800";
+}
+
+.icon-gamepadxbox:before {
+  content: "\ec34";
+}
+
+.icon-windows:before {
+  content: "\e606";
+}
+
+.icon-jianfanzhuanhuan:before {
+  content: "\e649";
+}
+
+.icon-tianqi:before {
+  content: "\e634";
+}
+
+.icon-google:before {
+  content: "\ea0c";
+}
+
+.icon-bingbao:before {
+  content: "\e622";
+}
+
+.icon-QQ1:before {
+  content: "\e60b";
+}
+
+.icon-geshizhuanhuan-xuanzhong:before {
+  content: "\e75a";
+}
+
+.icon-shijianxuliepinshuaizhuanhuan-xuanzhong:before {
+  content: "\e760";
+}
+
+.icon-baidu:before {
+  content: "\e617";
 }
 
 .icon-biaoqian:before {
