@@ -1,6 +1,5 @@
-//首次访问弹窗
+/*//首次访问弹窗
 if (localStorage.getItem("popWelcomeWindow") != "0") {
-    if(document.referrer==undefined||document.referrer.indexOf("starrim.cn")!=-1||document.referrer.indexOf("blog.starrim.cn")!=-1){ //改成自己域名，注意是referrer!!! qwq
         new Vue({
             data: function () {
                 this.$notify({
@@ -14,7 +13,7 @@ if (localStorage.getItem("popWelcomeWindow") != "0") {
                 });
             }
         })
-    } /* else{
+    } else{
         new Vue({
             data: function () {
                 this.$notify({
@@ -29,19 +28,19 @@ if (localStorage.getItem("popWelcomeWindow") != "0") {
             }
         })
         localStorage.setItem("popWelcomeWindow", "0");
-    }*/
-}
+    }
+}*/
 if (sessionStorage.getItem("popCookieWindow") != "0") {
     setTimeout(function () {
         new Vue({
             data: function () {
                 this.$notify({
-                    title: "本站使用Cookie和本地/会话存储保证浏览体验和网站统计",
+                    title: "欢迎访问本站！",
                     //message: "遵循GPL协议！",
-                    position: 'bottom-right',
+                    position: 'top-right',
                     offset: 10,
                     showClose: true,
-                    type: "info",
+                    type: "success",
                     duration: 5000
                 });
             }

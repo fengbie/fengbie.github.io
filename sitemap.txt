@@ -8,8 +8,8 @@ http://starrim.cn/link/index.html
 http://starrim.cn/about/index.html
 http://starrim.cn/charts/index.html
 http://starrim.cn/license/index.html
-http://starrim.cn/fonts/iconfont.json
 http://starrim.cn/fonts/demo_index.html
+http://starrim.cn/fonts/iconfont.json
 http://starrim.cn/music/index.html
 http://starrim.cn/
 http://starrim.cn/tags/%E7%AE%97%E6%B3%95/
