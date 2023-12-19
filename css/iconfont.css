@@ -9,10 +9,14 @@
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 20px;
+  font-size: 22px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: "\10000";
 }
 
 .icon-chenggong:before {
@@ -51,10 +55,6 @@
   content: "\e60b";
 }
 
-.icon-geshizhuanhuan-xuanzhong:before {
-  content: "\e75a";
-}
-
 .icon-shijianxuliepinshuaizhuanhuan-xuanzhong:before {
   content: "\e760";
 }
@@ -73,10 +73,6 @@
 
 .icon-tuite1:before {
   content: "\ffff";
-}
-
-.icon-gongshigonggao:before {
-  content: "\e63e";
 }
 
 .icon-tongzhigonggao:before {
@@ -174,4 +170,5 @@
 .icon-guanyu:before {
   content: "\e67d";
 }
+
 

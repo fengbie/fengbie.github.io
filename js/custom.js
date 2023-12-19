@@ -1,12 +1,3 @@
-/*// noinspection JSIgnoredPromiseFromCall
-
-// 这个语句的作用就是取代了BF原生的悬浮窗，不想要的话可以删掉（不确保没BUG）
-document.addEventListener(
-    'DOMContentLoaded',
-    () => btf.snackbarShow = (text, time = 3500) => kms.pushInfo({text, time}, null)
-)
-*/
-
 
 // 动态心跳
 $(document).ready(function(e){

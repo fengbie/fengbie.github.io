@@ -1,72 +1,33 @@
 /*//首次访问弹窗
 if (localStorage.getItem("popWelcomeWindow") != "0") {
-        new Vue({
-            data: function () {
-                this.$notify({
-                    title: '欢迎访问本站！',
-                    //message: "遵循GPL协议！",
-                    position: 'top-right',
-                    offset: 10,
-                    showClose: true,
-                    type: "success",
-                    duration: 5000
-                });
-            }
-        })
-    } else{
-        new Vue({
-            data: function () {
-                this.$notify({
-                    title: `欢迎来自${document.referrer.split("://")[1].split("/")[0]}的访客！`,
-                    //message: "遵循GPL协议！",
-                    position: 'top-right',
-                    offset: 10,
-                    showClose: true,
-                    type: "info",
-                    duration: 5000
-                });
-            }
-        })
+    if(document.referrer==undefined||document.referrer.indexOf("blog.starrim.cn")!=-1||document.referrer.indexOf("blog.starrim.cn")!=-1){ //改成自己域名，注意是referrer!!! qwq
+        kms.pushInfo({
+                text: "欢迎访问本站！",
+                position: 'top-right',
+                time: '50',
+        }) 
+    }else{
+        kms.pushInfo({
+                text: `欢迎来自${document.referrer.split("://")[1].split("/")[0]}的访客！`,
+                position: 'top-left',
+                time: '50',
+        }) 
+
         localStorage.setItem("popWelcomeWindow", "0");
     }
-}*/
+}
 if (sessionStorage.getItem("popCookieWindow") != "0") {
     setTimeout(function () {
-        new Vue({
-            data: function () {
-                this.$notify({
-                    title: "欢迎访问本站！",
-                    //message: "遵循GPL协议！",
-                    position: 'top-right',
-                    offset: 10,
-                    showClose: true,
-                    type: "success",
-                    duration: 5000
-                });
-            }
-        })
+        kms.pushInfo({
+                text: "本站使用Cookie和本地/会话存储保证浏览体验和网站统计",
+                position: 'bottom-right',
+                time: '50',
+        }) 
     }, 3000)
 }
 //不在弹出Cookie提醒
 sessionStorage.setItem("popCookieWindow", "0");
-
-/*
-        new Vue({
-            data: function () {
-                this.$notify({
-                    title: '欢迎访问本站！',
-                    //message: "遵循GPL协议！",
-                    position: 'top-left',
-                    offset: 10,
-                    showClose: true,
-                    type: "info",
-                    duration: 5000
-                });
-            }
-        })
 */
-
-
 //自带上文浏览器提示
 
 function browserTC() {
