@@ -6,7 +6,7 @@
   <link href="http://starrim.cn/atom.xml" rel="self"/>
   
   <link href="http://starrim.cn/"/>
-  <updated>2023-12-18T06:39:22.991Z</updated>
+  <updated>2023-12-20T01:31:41.763Z</updated>
   <id>http://starrim.cn/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cad基本命令</title>
+    <link href="http://starrim.cn/posts/d0d3/"/>
+    <id>http://starrim.cn/posts/d0d3/</id>
+    <published>2023-12-20T01:30:25.000Z</published>
+    <updated>2023-12-20T01:31:41.763Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>粗实线 0.7mm<br>细实线 0.35mm</p></blockquote><p>一、图框</p><ol><li>绘制A3幅面（细实线层）</li></ol><ul><li>启用<code>矩形</code>命令 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">0,0</span><br><span class="line">420,297   //A4: 297,210</span><br></pre></td></tr></table></figure></li></ul><ol start="2"><li>绘制边框线（粗实线）</li></ol><ul><li>启用<code>矩形</code>命令 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">10,10</span><br><span class="line">400,277    //A4： 277,190</span><br></pre></td></tr></table></figure></li></ul><ol start="3"><li>对中符号（粗实线）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">启用对中点</span><br><span class="line">5mm</span><br></pre></td></tr></table></figure></li></ol><p>二、标题栏<br>高： 4x7&#x3D;28  与 10 9 9  竖是粗实线<br>宽： 15 30 20 15 40 60  横是细实线</p><p>三、样式</p><blockquote><p>文字样式<br>新建<code>国标样式</code><br>    字体<code>仿宋</code><br>        宽度因子 <code>0.67</code></p></blockquote><p>新建<code>尺寸</code><br>    字体<code>iso.shx</code><br>        宽度因子 <code>0.67</code><br>        倾斜角度 <code>15</code></p><blockquote><p>标注样式<br>新建<code>国标尺寸</code><br>    线 – <code>将尺寸界线超出尺寸线  修改为2</code><br>            <code>起点偏移修改为0</code><br>    符号与箭头 – <code>箭头大小为2.5</code><br>    调整 – <code>选择  文字与箭头</code><br>                <code>勾选 手动放置文字</code><br>    主单位 – <code>精度  0.00</code><br>                <code>比例因子 0.5</code></p></blockquote><p>&#x2F;&#x2F;点亮 <code>正交``对象捕捉``对象追踪</code></p><p>四、命令<br>f 圆角<br>l 直线<br>cha 倒角<br>dk 螺纹  &#x2F;&#x2F;  输入快捷命令：LWHZ，按回车键确认   &#x2F;&#x2F; <strong>在命令行输入：N，按回车键确认；接着选择缺口方向 (1左上 2左下 3右上 4右下)，输入：1；输入内螺纹直径大小；在图纸中自由选择中心插入点；最后即可完成内螺纹孔的绘制</strong>。  &#x2F;&#x2F;M10是指螺纹大径是10，查手册可知小径8.37</p><p>汉语读音：fai，四声。 在CAD中<strong>输入Φ</strong>的方法有两种： 第一种：标注完尺寸后，双击需要修改的标注，在弹出的属性对话框中找到文字项，“文字代替”右侧的输入框里输入<code>%%c&lt;&gt;</code>，回车，关闭对话框，完成输入Φ。</p><p>ed 修改文字</p><p>LE S 勾选 附着 最后  &#x2F;&#x2F;引线标注<br>LE S 选择 点  勾选 附着 最后</p><p>选择多重引线，CTRL +1,找 文字—-连接位置。 修改多重引线样式同样，找引线连接位置，改成你想要的。</p><p>dli线段标注<br>dal斜线标注<br>dra圆弧半径标注<br>ddi圆直径标注<br>dan角度标注<br>qdim全选直线标注</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;粗实线 0.7mm&lt;br&gt;细实线 0.35mm&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;一、图框&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;绘制A3幅面（细实线层）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;启用&lt;code&gt;矩形&lt;/code&gt;命令 &lt;figure </summary>
+      
+    
+    
+    
+    <category term="cad" scheme="http://starrim.cn/categories/cad/"/>
+    
+    
+    <category term="cad" scheme="http://starrim.cn/tags/cad/"/>
+    
+  </entry>
   
   <entry>
     <title>数学知识</title>

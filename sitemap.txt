@@ -1,3 +1,4 @@
+http://starrim.cn/posts/d0d3/
 http://starrim.cn/fonts/demo_index.html
 http://starrim.cn/fonts/iconfont.json
 http://starrim.cn/about/index.html
@@ -12,5 +13,7 @@ http://starrim.cn/posts/8847/
 http://starrim.cn/link/index.html
 http://starrim.cn/license/index.html
 http://starrim.cn/
+http://starrim.cn/tags/cad/
 http://starrim.cn/tags/%E7%AE%97%E6%B3%95/
+http://starrim.cn/categories/cad/
 http://starrim.cn/categories/%E7%AE%97%E6%B3%95/

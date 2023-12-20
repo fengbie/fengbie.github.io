@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://starrim.cn/posts/d0d3/</loc>
+    
+    <lastmod>2023-12-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://starrim.cn/fonts/demo_index.html</loc>
     
     <lastmod>2023-12-19</lastmod>
@@ -121,15 +130,22 @@
 
   <url>
     <loc>http://starrim.cn/</loc>
-    <lastmod>2023-12-19</lastmod>
+    <lastmod>2023-12-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>http://starrim.cn/tags/cad/</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://starrim.cn/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-12-19</lastmod>
+    <lastmod>2023-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -137,8 +153,15 @@
 
   
   <url>
+    <loc>http://starrim.cn/categories/cad/</loc>
+    <lastmod>2023-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://starrim.cn/categories/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-12-19</lastmod>
+    <lastmod>2023-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
